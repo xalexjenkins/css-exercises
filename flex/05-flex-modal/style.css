@@ -16,6 +16,8 @@ body {
 }
 
 .modal {
+  display: flex;
+  padding: 20px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -64,3 +66,22 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.one{
+  margin-right: 10px;
+}
+
+.two{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.three{
+  display: flex;
+  justify-content: right;
+  align-items: top;
+}
+
+
